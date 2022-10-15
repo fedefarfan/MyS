@@ -1,0 +1,113 @@
+#include <stdio.h>
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xparameters.h"
+#include "cont_ip.h"
+#include "xuartps.h"
+
+
+int main()
+{
+
+	int reset = 1;
+	int cuenta_incrementa = 0;
+	//int cuenta_decrementa = 6;
+    //int paso;
+	char byte = 0;
+
+	print("//////////////////////////////////// \n\r");
+    print("//1- RESET del contador           // \n\r");
+    print("//2- Incrementa la cuenta en 1    // \n\r");
+    print("//3- Incrementa la cuenta en 2    // \n\r");
+    print("//4- Decrementa la cuenta en 1    // \n\r");
+    print("//5- Decrementa la cuenta en 2    // \n\r");
+    print("//6- parar cuenta                 // \n\r");
+    print("//////////////////////////////////// \n\r");
+
+    while(1){
+
+    	byte = XUartPs_RecvByte(XPAR_PS7_UART_0_BASEADDR);
+
+    	switch(byte){
+    	case '1':
+    		cuenta_incrementa = 1;
+    		CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, reset);
+    		//print("//1- RESET del contador           // \n\r");
+    		break;
+    	case '2':
+    		cuenta_incrementa = 2;
+    		CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    		//print("//2- Incrementa la cuenta en 1    // \n\r");
+    	    break;
+    	case '3':
+    		cuenta_incrementa = 6;
+    		CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    		//print("//3- Incrementa la cuenta en 2    // \n\r");
+    	    break;
+    	case '4':
+    		cuenta_incrementa = 10;
+    		CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    		//print("//4- Decrementa la cuenta en 1    // \n\r");
+    		break;
+    	case '5':
+    		cuenta_incrementa = 14;
+    	    CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    	    //print("//5- Decrementa la cuenta en 2    // \n\r");
+    		break;
+    	case '6':
+    		cuenta_incrementa = 0;
+    	    CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    	    //print("//6- parar cuenta    // \n\r");
+    		break;
+    	default:
+    		break;
+    	}
+
+
+/*
+    	if (byte & 0x01){//if (byte & 0x01)
+    		cuenta_incrementa = 1;
+    		CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, reset);
+    		print("//1- RESET del contador           // \n\r");
+    	}*/
+        /*if (byte & 0x02){//if (byte & 0x02){
+        	cuenta_incrementa = 2;
+    	    CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    	    //CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    	    print("//2- Incrementa la cuenta en 1    // \n\r");
+        }*/
+    	/*if (byte & 0x04){//if (byte & 0x03){
+    		cuenta_incrementa = 6;
+    	    CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    	    //CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    	    print("//3- Incrementa la cuenta en 2    // \n\r");
+    	}*/
+    	/*if (byte & 0x08){//if (byte & 0x04){
+    		cuenta_incrementa = 10;
+    	    CONT_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+    	   // CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    	    print("//4- Decrementa la cuenta en 1    // \n\r");
+    	}*/
+    	/*if (byte & 0x05){//if(byte & 0x05){
+    		paso=1;
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, cuenta_decrementa);
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    		print("//5- Decrementa la cuenta en 1    // \n\r");
+    	}
+    	if (byte & 0x06){//if(byte & 0x06){
+    		paso=2;
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, cuenta_decrementa);
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    	    print("//6- Decrementa la cuenta en 2    // \n\r");
+    	}
+    	if (byte & 0x07){//if(byte & 0x05){
+    		paso=3;
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, cuenta_decrementa);
+    		CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+    	    print("//7- Decrementa la cuenta en 3    // \n\r");
+    	}*/
+
+    }
+
+    return 0;
+}

@@ -1,0 +1,853 @@
+00:10:52 **** Build of project cont_ip_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cont_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/cont_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/cont_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/cont_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cont_ip..."
+cont_ip_selftest.c: In function 'CONT_IP_Reg_SelfTest':
+cont_ip_selftest.c:52:56: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( CONT_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                        ^~
+cont_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_6/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:54:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project cont_ip ****
+
+Nothing to build for project cont_ip
+00:12:31 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c:5:10: fatal error: contador_ip.h: No such file or directory
+ #include "contador_ip.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/contador.o] Error 1
+00:13:27 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:33:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:33:29: error: 'XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_CONT_IP_0_C00_AXI_BASEADDR'?
+       CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, reset);
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                             XPAR_CONT_IP_0_C00_AXI_BASEADDR
+../src/contador.c:33:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/contador.c:33:67: error: 'CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'CONT_IP_C00_AXI_SLV_REG0_OFFSET'?
+       CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, reset);
+                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                   CONT_IP_C00_AXI_SLV_REG0_OFFSET
+../src/contador.c:39:70: error: 'CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET'?
+          CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                      CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/contador.o] Error 1
+00:15:54 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:33:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:33:62: error: 'CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'CONT_IP_C00_AXI_SLV_REG0_OFFSET'?
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, reset);
+                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                              CONT_IP_C00_AXI_SLV_REG0_OFFSET
+../src/contador.c:33:62: note: each undeclared identifier is reported only once for each function it appears in
+../src/contador.c:38:32: error: 'XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_CONT_IP_0_C00_AXI_BASEADDR'?
+          CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                XPAR_CONT_IP_0_C00_AXI_BASEADDR
+../src/contador.c:39:70: error: 'CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET'?
+          CONTADOR_IP_mWriteReg(XPAR_CONTADOR_IP_0_CONT_AXI_BASEADDR, CONTADOR_IP_CONT_AXI_SLV_REG1_OFFSET, paso);
+                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                      CONTADOR_IP_CONT_AXI_SLV_REG0_OFFSET
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/contador.o] Error 1
+00:17:32 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:33:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:33:62: error: 'CONT_IP_C00_AXI_SLV_REG0_OFFSETT' undeclared (first use in this function); did you mean 'CONT_IP_C00_AXI_SLV_REG0_OFFSET'?
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                              CONT_IP_C00_AXI_SLV_REG0_OFFSET
+../src/contador.c:33:62: note: each undeclared identifier is reported only once for each function it appears in
+../src/contador.c:15:9: warning: variable 'paso' set but not used [-Wunused-but-set-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/contador.o] Error 1
+00:18:56 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:31:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:31:62: error: 'CONT_IP_C00_AXI_SLV_REG0_OFFSETT' undeclared (first use in this function); did you mean 'CONT_IP_C00_AXI_SLV_REG0_OFFSET'?
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                              CONT_IP_C00_AXI_SLV_REG0_OFFSET
+../src/contador.c:31:62: note: each undeclared identifier is reported only once for each function it appears in
+../src/contador.c:15:9: warning: variable 'paso' set but not used [-Wunused-but-set-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/contador.o] Error 1
+00:19:16 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:31:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:31:62: error: 'CONT_IP_C00_AXI_SLV_REG0_OFFSETT' undeclared (first use in this function); did you mean 'CONT_IP_C00_AXI_SLV_REG0_OFFSET'?
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSETT, reset);
+                                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                              CONT_IP_C00_AXI_SLV_REG0_OFFSET
+../src/contador.c:31:62: note: each undeclared identifier is reported only once for each function it appears in
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+make: *** [src/contador.o] Error 1
+00:20:50 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:32:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:32: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:37: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:43: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:21:05 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:32:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:32: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:37: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:43: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:22:24 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:32:7: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+       CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, reset);
+       ^~~~~~~~~~~~~~~~~~~~~
+       CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:32: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:37: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:43: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:22:37 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:37:10: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+          CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+          ^~~~~~~~~~~~~~~~~~~~~
+          CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:37: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:43: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:22:43 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:43:10: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+          CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+          ^~~~~~~~~~~~~~~~~~~~~
+          CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:43: undefined reference to `CONTADOR_IP_mWriteReg'
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:22:49 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:49:10: warning: implicit declaration of function 'CONTADOR_IP_mWriteReg'; did you mean 'CONT_IP_mWriteReg'? [-Wimplicit-function-declaration]
+          CONTADOR_IP_mWriteReg(XPAR_CONT_IP_0_C00_AXI_BASEADDR, CONT_IP_C00_AXI_SLV_REG0_OFFSET, cuenta_incrementa);
+          ^~~~~~~~~~~~~~~~~~~~~
+          CONT_IP_mWriteReg
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/contador.o: In function `main':
+C:\Users\fede_\OneDrive\Documentos\MicroySof\contador-final-e\Sintesis\contador_ip\contador_ip\contador_ip.sdk\cont_ip\Debug/../src/contador.c:49: undefined reference to `CONTADOR_IP_mWriteReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [cont_ip.elf] Error 1
+00:22:55 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:15:9: warning: unused variable 'paso' [-Wunused-variable]
+     int paso;
+         ^~~~
+../src/contador.c:14:6: warning: unused variable 'cuenta_decrementa' [-Wunused-variable]
+  int cuenta_decrementa = 6;
+      ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19852	   1144	  22568	  43564	   aa2c	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:24:12 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19844	   1144	  22568	  43556	   aa24	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:26:54 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+00:29:09 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+00:46:33 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:31:6: error: case label does not reduce to an integer constant
+      case "1":
+      ^~~~
+make: *** [src/contador.o] Error 1
+00:46:56 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+../src/contador.c: In function 'main':
+../src/contador.c:31:6: error: case label does not reduce to an integer constant
+      case "1":
+      ^~~~
+make: *** [src/contador.o] Error 1
+00:47:18 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19896	   1144	  22568	  43608	   aa58	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:47:50 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19896	   1144	  22568	  43608	   aa58	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:48:15 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+00:50:21 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19848	   1144	  22568	  43560	   aa28	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:50:49 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+00:56:59 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19844	   1144	  22568	  43556	   aa24	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+00:57:21 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:02:03 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19972	   1144	  22568	  43684	   aaa4	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+01:02:16 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:05:31 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:09:11 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:11:32 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:14:46 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19872	   1144	  22568	  43584	   aa40	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+01:15:58 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:17:10 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19872	   1144	  22568	  43584	   aa40	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+01:18:05 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:22:07 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+01:38:49 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:03:03 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19864	   1144	  22568	  43576	   aa38	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+09:04:16 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19864	   1144	  22568	  43576	   aa38	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+09:04:58 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19864	   1144	  22568	  43576	   aa38	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+09:06:33 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:07:07 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:36:35 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:38:45 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:39:15 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+09:41:42 **** Auto Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/contador.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/contador.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cont_ip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/contador.d" -MT"src/contador.o" -o "src/contador.o" "../src/contador.c"
+'Finished building: ../src/contador.c'
+' '
+'Building target: cont_ip.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cont_ip_bsp/ps7_cortexa9_0/lib -o "cont_ip.elf"  ./src/contador.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cont_ip.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cont_ip.elf  |tee "cont_ip.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19864	   1144	  22568	  43576	   aa38	cont_ip.elf
+'Finished building: cont_ip.elf.size'
+' '
+10:28:12 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+10:29:03 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+10:55:22 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+11:39:58 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+11:40:45 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+13:11:07 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+13:11:27 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:20:18 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+14:21:00 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+15:01:32 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+15:03:22 **** Incremental Build of configuration Debug for project cont_ip ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.

@@ -1,0 +1,7 @@
+v 4
+file . "../Fuentes/cont12b_Lento_tb.vhd" "be765a77d5736d126198da5275c158b034b8847b" "20221011012707.275":
+  entity cont12b_lento_tb at 1( 0) + 0 on 93;
+  architecture cont12b_lento_tb_arq of cont12b_lento_tb at 7( 89) + 0 on 94;
+file . "../Fuentes/cont12b_Lento.vhd" "6303a6fee4db11487b0b54ff6ab044dc9bf5bd02" "20221011012707.274":
+  entity cont12b_lento at 1( 0) + 0 on 91;
+  architecture cont12b_lento_arq of cont12b_lento at 21( 381) + 0 on 92;

@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/system/ipshared/fd93/hdl/cont_ip_v1_0_C00_AXI.vhd" \
+"../../../../contador_ip.srcs/sources_1/bd/Fuentes/cont12b_Lento.vhd" \
+"../../../bd/system/ipshared/fd93/hdl/cont_ip_v1_0.vhd" \
+"../../../bd/system/ip/system_cont_ip_0_0/sim/system_cont_ip_0_0.vhd" \
+"../../../bd/system/ip/system_rst_ps7_0_100M_0/sim/system_rst_ps7_0_100M_0.vhd" \
+"../../../bd/system/ip/system_vio_0_0/sim/system_vio_0_0.vhd" \
+"../../../bd/system/sim/system.vhd" \
+
+nosort

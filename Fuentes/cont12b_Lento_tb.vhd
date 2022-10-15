@@ -1,0 +1,54 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity cont12b_Lento_tb is--test
+end;
+
+architecture cont12b_Lento_tb_arq of cont12b_Lento_tb is
+
+	component cont12b_Lento is
+		generic(
+		N: natural := 12;
+		CICLOS: natural := 2
+		);
+		port(
+			clk_i: in std_logic;
+			rst_i: in std_logic;
+			ena_i: in std_logic;
+			step_i  : in std_logic;
+			up_down : in std_logic;
+			q_o: out std_logic_vector(N-1 downto 0); 
+			ena_o: out std_logic
+		);
+	end component;
+
+	constant N_t: natural := 12;
+	constant CICLOS_t: natural := 2;
+	signal clk_t: std_logic:= '0';
+	signal rst_t: std_logic:= '1';
+	signal ena_t: std_logic:= '1';
+	signal step_t: std_logic:= '0';
+	signal up_down_t : std_logic:= '0';
+	signal q_t: std_logic_vector(N_t-1 downto 0);
+	signal ena_o_t: std_logic;
+	begin
+		clk_t <= not clk_t after 10 ns;
+		rst_t <= '0' after 50 ns;
+		ena_t <= '0' after 620 ns, '1' after 800 ns;
+		step_t <= '1' after 500 ns,'0' after 1000 ns,'1' after 1500 ns;
+		up_down_t <= '1' after 1300 ns;
+
+
+		int_cont: cont12b_Lento
+		generic map(N_t)
+		port map(
+			clk_i => clk_t,
+			rst_i => rst_t,
+			ena_i => ena_t,
+			step_i => step_t,
+			up_down => up_down_t,
+			q_o => q_t,
+			ena_o => ena_o_t
+			);
+
+	end;
